@@ -53,3 +53,21 @@ lib/
 ├── theme/
 │ └── theme_provider.dart
 └── main.dart
+
+
+
+## 📸 Demo Video
+
+👉 Screen recording of the application demonstrating all required features:
+
+🔗 Demo Video Link:  
+https://drive.google.com/file/d/1X6LEbXUdSKsQJtpOjgISwgtU3WO3KXso/view?usp=sharing
+
+The demo video covers:
+- Signup & Login
+- Login state persistence
+- Forgot password
+- Dashboard
+- Theme switching (Light / Dark)
+- Add, view, and delete users
+- Logout
