@@ -35,6 +35,9 @@ class _SignupPageState extends State<SignupPage> {
         password: passwordController.text.trim(),
       );
 
+      // 🔥 IMPORTANT FIX: Firebase auto-login after signup → force logout
+      await FirebaseAuth.instance.signOut();
+
       showMessage("Signup successful. Please login.");
       Navigator.pop(context);
     } on FirebaseAuthException catch (e) {
